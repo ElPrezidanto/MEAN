@@ -7,8 +7,8 @@ import { Contact } from '../models/contact';
   providedIn: 'root'
 })
 export class ContactService {
-  private apiUrl = 'http://localhost:5000/api/contacts';
-  //private apiUrl = 'Тут будет твоя ссылка на Render у сервера';
+  //private apiUrl = 'http://localhost:5000/api/contacts';
+  private apiUrl = 'https://mean-frdb.onrender.com';
 
   constructor(private http: HttpClient) {}
 
